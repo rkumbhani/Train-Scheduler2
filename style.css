@@ -1,0 +1,38 @@
+body {
+    background-image: url(../images/background.jpeg);
+    background-size: 50%;
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+}
+
+h2 {
+    color: dodgerblue;
+    font-style: oblique;
+    font-size: 18pt;
+}
+
+.jumbotron {
+    background-color: aliceblue;
+    margin-top: 20px;
+    border: 1px solid darkblue;
+    color: midnightblue;
+}
+
+.panel {
+    background: white;
+}
+
+.btn {
+    background-color: #e7e7e7; /* grey */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
