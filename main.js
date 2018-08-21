@@ -2,13 +2,13 @@ $(document).ready(function(){
     
 // initialize firebase
 var config = {
-    apiKey: "AIzaSyBNB6JYK8E1aN8p5bQqUGfWyz0sm-XM968",
-    authDomain: "train-hw7.firebaseapp.com",
-    databaseURL: "https://train-hw7.firebaseio.com",
-    projectId: "train-hw7",
-    storageBucket: "train-hw7.appspot.com",
-    messagingSenderId: "236439548254"
-  };
+        apiKey: "AIzaSyC5pvBKuFwpvuneAldGwTP8iSnLgUetfvk",
+        authDomain: "train-scheduler-zwork.firebaseapp.com",
+        databaseURL: "https://train-scheduler-zwork.firebaseio.com",
+        projectId: "train-scheduler-zwork",
+        storageBucket: "train-scheduler-zwork.appspot.com",
+        messagingSenderId: "1086947781666"
+        };
   firebase.initializeApp(config);
     
 var database = firebase.database();
