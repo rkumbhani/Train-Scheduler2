@@ -70,7 +70,7 @@ database.ref().on("child_added", function(childSnapshot){
 
  // display current time and append table data 
 document.getElementById('currentTime').text(currentTime);
-$("#trainTable").append(
+document.getElementById('trainTable').append(
 		"<tr><td id='nameDisplay'>" + childSnapshot.val().name +
 		"</td><td id='destDisplay'>" + childSnapshot.val().dest +
 		"</td><td id='freqDisplay'>" + childSnapshot.val().freq +

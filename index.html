@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<title>Train Scheduler2</title>
     
-    <!-- Bootstrap -->
+    <!-- removed Bootstrap - using css grid -->
 	<!-- Latest compiled and minified CSS -->
     <!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" -->
 
@@ -28,7 +28,7 @@
     
 <div class="container">
     
-	<div class="jumbotron text-center">
+	<div class="text-center">
 		<h1>Train Scheduler</h1>
 		<hr>
 		<h2>Current Time: <span id="currentTime"></span></h2>
@@ -36,8 +36,8 @@
 	
 	<div class="row">
         
-		<div class="col-md-9">
-			<div class="panel panel-primary">
+		<div class="">
+			<div class="panel">
 				<div class="panel-heading">
 					<h3 class="panel-title">Current Train Schedule</h3>
 				</div>
@@ -66,6 +66,7 @@
 					<h3 class="panel-title">Add New Train</h3>
 				</div>
 	 			<div class="panel-body">
+                    <!-- remove /form and create form with onclick event -->
 	 				<form>
 			 			<div class="form-group">
 						    <label for="name">Train Name </label>
@@ -97,19 +98,7 @@
 	
     
     
-    <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
-    <script>
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyC5pvBKuFwpvuneAldGwTP8iSnLgUetfvk",
-        authDomain: "train-scheduler-zwork.firebaseapp.com",
-        databaseURL: "https://train-scheduler-zwork.firebaseio.com",
-        projectId: "train-scheduler-zwork",
-        storageBucket: "train-scheduler-zwork.appspot.com",
-        messagingSenderId: "1086947781666"
-        };
-    firebase.initializeApp(config);
-    </script>
+   
     <!-- Javascript -->
     <script src="main.js"></script>
     
