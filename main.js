@@ -24,7 +24,7 @@ document.getElementById('submit').addEventListener('click', function () {
     var freq = $('#freqInput').val().trim();
 });    
 
-// push to firebase
+/*// push to firebase
 	database.ref().push({
 		name: name,
 		dest: dest,
@@ -48,7 +48,7 @@ database.ref().on("child_added", function(childSnapshot){
 	console.log("Name: " + name);
 	console.log("Destination: " + dest);
 	console.log("Time: " + time);
-	console.log("Frequency: " + freq);
+	console.log("Frequency: " + freq);*/
 
 // train time conversions
 	var freq = parseInt(freq);
