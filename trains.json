@@ -1,18 +1,22 @@
 [
     {
-        to : "mumbai",
-        from : "ahmedabad",
-        route : "red"
+        from : "delhi",
+        to : "jaipur",
     },
     {
-        to : "bangalore",
-        from : "ahmedabad",
-        route : "green"
+        from : "jaipur",
+        to : "udaipur",
     },
     {
-        id : "003",
-        name : "banana",
-        category : "fruit",
-        color : "yellow"
+        from : "udaipur",
+        to : "ahmedabad",
+    },
+    {
+        from : "ahmedabad",
+        to : "surat",
+    },
+    {
+        from : "surat",
+        to : "pune",
     }
 ]
