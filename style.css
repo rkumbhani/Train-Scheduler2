@@ -16,6 +16,7 @@ body {
 .wrapper {
   display: grid;
   grid-gap: 30px;
+  grid-auto-rows: minmax(100px, auto);    
 }
 
 .form {

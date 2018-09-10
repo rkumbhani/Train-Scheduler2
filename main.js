@@ -48,7 +48,7 @@ database.ref().on("child_added", function(childSnapshot){
 	console.log("Name: " + name);
 	console.log("Destination: " + dest);
 	console.log("Time: " + time);
-	console.log("Frequency: " + freq);*/   
+	console.log("Frequency: " + freq);   
 
 // train time conversions
 	var freq = parseInt(freq);
@@ -65,7 +65,7 @@ database.ref().on("child_added", function(childSnapshot){
 	var minsAway = freq - tRemainder;
 	console.log("Minutes Away: " + minsAway);
 	var nextTrain = moment().add(minsAway, 'minutes');
-	console.log("Next Train: " + moment(nextTrain).format('HH:mm A'));
+	console.log("Next Train: " + moment(nextTrain).format('HH:mm A'));*/
 
 
  // display current time and append table data 
@@ -79,6 +79,8 @@ document.getElementById('trainTable').append(
  });
 
 // TO DO write a function that displays cities between a given to and from array
+var cities [delhi, jaipur, udaipur, ahmedabad, surat, pune,];
+
 
     
 
