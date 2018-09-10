@@ -1,3 +1,5 @@
+// cities from north to south in order
+// to create a string of cities
 [
     {
         from : "delhi",

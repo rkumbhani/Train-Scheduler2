@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-// initialize firebase
+/*// initialize firebase
 var config = {
         apiKey: "AIzaSyC5pvBKuFwpvuneAldGwTP8iSnLgUetfvk",
         authDomain: "train-scheduler-zwork.firebaseapp.com",
@@ -11,7 +11,7 @@ var config = {
         };
   firebase.initializeApp(config);
     
-var database = firebase.database();
+var database = firebase.database();*/
 
 // current time
 var currentTime = moment();
@@ -48,7 +48,7 @@ database.ref().on("child_added", function(childSnapshot){
 	console.log("Name: " + name);
 	console.log("Destination: " + dest);
 	console.log("Time: " + time);
-	console.log("Frequency: " + freq);*/
+	console.log("Frequency: " + freq);*/   
 
 // train time conversions
 	var freq = parseInt(freq);
@@ -77,5 +77,9 @@ document.getElementById('trainTable').append(
 		"</td><td id='nextDisplay'>" + moment(nextTrain).format("HH:mm") +
 		"</td><td id='awayDisplay'>" + minsAway  + ' minutes until arrival' + "</td></tr>");
  });
+
+// TO DO write a function that displays cities between a given to and from array
+
+    
 
 }); // end document.ready
